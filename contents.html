@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 40px;
+    
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top, #sidebar, #bottom, .menuitem {
+    border-radius: 6px;
+    margin: 6px;
+}
+
+#top {
+    background-color: rgb(73, 103, 116);
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+#menubar {
+    width: 200px;
+    float: left;
+}
+
+#main {
+    padding: 6px;
+    margin: 0 210px;
+}
+
+#sidebar {
+    background-color: rgb(198, 211, 216);
+    color: #ffffff;
+    padding: 10px;
+    width: 180px;
+    height:300px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 80%;
+}
+
+#bottom {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#top h1, #top p, #menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background-color: rgb(165, 168, 196);
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.menuitem:hover {
+    background-color: #ffffff;
+}
+
+.menuitem:hover {
+   background-color:rgb(73, 103, 116);
+   color: white;
+   font-weight:bold;
+   text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    #sidebar {
+        width: auto;
+        position: relative;
+    } 
+    #main {
+        margin-right: 0;
+    }    
+       
+}
+
+@media (max-width: 600px) {
+    #menubar {
+        width: auto;
+        float: none;
+    }
+    #main {
+        margin: 0;
+    }    
+}
+</style>
+</head>
+<body>
+
+<div class="container wrapper">
+  <div id="top">
+    <h1>일제강점기(日帝强占期)</h1>
+    <p>1910년 8월 29일 ~ 1945년 8월 15일</p>
+  </div>
+
+  <div class="wrapper">
+   <div id="menubar">
+     <ul id="menulist">
+       <li class="menuitem" onclick="reStyle(1)"><a href="https://westdusrud.github.io/myassignment/">내용</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./girl.html">위안부</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./independence.html">독립운동</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./contents.html">식민지 정책</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./table.html">연표</a></li>
+     </ul>
+    </div>
+
+    <div id="main">
+        <p><style>
+            p.intro::first-letter {
+              color: #0084ff;
+              font-size: 200%;
+            }  
+            </style>
+
+      <h2>식민지 정책의 특징</h2>
+      <p  class="intro">일제강점기는 유구한 역사에서 우리 민족이 가장 크고 아픈 상처를 입은 한국사의 특수한 시기였다.
+        이 시기의 한국 역사를 알기 위해서는 먼저 한국을 강점한 일본제국주의의 한국에 대한 식민지정책의 기본적 특징을 알아야 한다.
+        일본제국주의는 한국을 식민지로 강점한 다음 서구열강의 식민지정책과도 다른 그들의 독특한 식민지정책을 한국에 실시하였다. 
+        일본제국주의의 한국에 대한 식민지정책의 특징은 한국민족말살 정책과 식민지수탈 정책으로 요약할 수 있다.
+        
+        <br>첫째, 민족 말살정책은 세 가지가 있다.
+        <ol><li>황국 신민화 정책</li>
+        ‌세계 대공황 이후 일제는 일본 · 한국 · 만주를 하나의 경제 블록으로 만들어 경제적 어려움을 타개하고자 하였다. 만주사변(1931)을 통해 만주국을 수립한 일제는 그 후 중 · 일 전쟁(1937), 태평양 전쟁(1941)으로 침략 전쟁을 확대해 갔다.
+       일제는 침략 전쟁을 확대하면서 ‘내선일체’와 ‘일선동조론’을 주장하며 한국인을 일본 천황에게 충성하는 백성으로 동화시키려는 황국 신민화 정책을 시행하였다. 
+       이는 한국인의 민족의식을 말살하여 저항을 잠재우고, 침략 전쟁에 한국인을 효율적으로 동원하기 위한 정책이었다.
+       <li>신사 참배 강요</li>
+        일제는 아침마다 천황이 사는 궁을 향해 절하는 궁성 요배를 강요하였고, 천황에게 충성을 맹세하는 황국 신민 서사를 외우게 하였다. 
+        또한, 서울 남산에 조선 신궁을 짓고, 전국 각 면에 신사를 세워 참배를 강요하였다. 소학교의 명칭도 ‘황국 신민의 학교’라는 의미로 ‘국민학교’로 바꾸었다(1941).
+       <li>창씨개명 강요</li>
+        ‌중일 전쟁 이후 일제는 민족 말살 정책을 더욱 강화하였다. 학교 수업에서 조선어 과목을 사실상 폐지하였으며, 조선일보, 동아일보 등의 신문을 폐간하였고(1940), 
+        “우리말 큰사전”의 편찬을 준비하고 있던 조선어 학회 회원들을 구속하였다(조선어 학회 사건, 1942). 
+        아울러 성과 이름도 일본식으로 바꾸도록 하였는데(창씨개명), 거부하면 자녀를 학교에 보낼 수 없었고, 식량 배급도 받을 수 없었다.</ol>
+       </p>
+
+       <p>둘째, 식민지 수탈은 한국강점 직후인 1910년 9월부터 식민지 수탈 기반을 마련하기 위해 일제가 실시한 것이 바로 조선토지조사사업이다. 
+        토지조사사업은 겉으로 근대식 등기제도를 채용한 토지소유권의 법인을 표방하고 있었다. 
+        하지만 그것은 본질적으로 국유지 창출을 통한 식민지 수탈기반의 마련과 안정적 식민지 지배를 위한 통치기반의 구축이라는 두 가지의 목적을 가지고 시행됐다.
+        토지조사사업 가운데, 식민지 수탈 기반의 마련이라는 첫째 목적을 달성하기 위한 술책이 토지신고제를 채택한 것이고, 또 구(舊)양안을 토지소유권 사정 1차 자료로 채택한 것이었다.
+         따라서 일제는 한국 농민이 토지조사사업에 반대하여 신고를 거부한 토지는 물론, 절차를 몰라 신고하지 못한 사유지를 국유화하여 조선총독부의 소유지로 만들었다.  
+        </p>
+
+    <div id="sidebar">
+      <p>신사에 참배를 하는 모습<p>
+      <p><img src="./sinsa.png" alt="신사 참배" style="width:150px;height:130px;"><br><관련사진5></p>
+    </div>
+  </div>  
+
+
+  <div id="bottom">
+   청운대학교 글로벌경영학과 20181318 서연경 제작
+  </div>
+</div>
+
+</body>
+</html>

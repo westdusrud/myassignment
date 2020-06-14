@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 40px;
+    
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top, #sidebar, #bottom, .menuitem {
+    border-radius: 6px;
+    margin: 6px;
+}
+
+#top {
+    background-color: rgb(73, 103, 116);
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+#menubar {
+    width: 200px;
+    float: left;
+}
+
+#main {
+    padding: 6px;
+    margin: 0 210px;
+}
+
+#sidebar {
+    background-color: rgb(198, 211, 216);
+    color: #ffffff;
+    padding: 10px;
+    width: 180px;
+    height:300px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 80%;
+}
+
+#bottom {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#top h1, #top p, #menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background-color: rgb(165, 168, 196);
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.menuitem:hover {
+    background-color: #ffffff;
+}
+
+.menuitem:hover {
+   background-color:rgb(73, 103, 116);
+   color: white;
+   font-weight:bold;
+   text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    #sidebar {
+        width: auto;
+        position: relative;
+    } 
+    #main {
+        margin-right: 0;
+    }    
+       
+}
+
+@media (max-width: 600px) {
+    #menubar {
+        width: auto;
+        float: none;
+    }
+    #main {
+        margin: 0;
+    }    
+}
+
+</style>
+</head>
+<body>
+
+<div class="container wrapper">
+  <div id="top">
+    <h1>일제강점기(日帝强占期)</h1>
+    <p>1910년 8월 29일 ~ 1945년 8월 15일</p>
+  </div>
+
+  <div class="wrapper">
+   <div id="menubar">
+     <ul id="menulist">
+       <li class="menuitem" onclick="reStyle(1)"><a href="https://westdusrud.github.io/myassignment/">내용</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./girl.html">위안부</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./independence.html">독립운동</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./contents.html">식민지 정책</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./table.html">연표</a></li>
+     </ul>
+    </div>
+
+    <div id="main">
+        <p><style>
+            p.intro::first-letter {
+              color: #ff0000;
+              font-size: 160%;
+            }  
+            </style>
+
+      <h2>일제강점기의 위안부란?</h2>
+      <p class="intro">일본군의 성욕 해결, 성병 예방, 치안 유지, 강간 방지 등을 위하여 일본군과 일본정부가 중일전쟁 및 아시아태평양전쟁 당시 일본군 점령지나 주둔지 등의 위안소에 배치한 여성.정신대·군위안부·종군위안부·성노예이다.
+      초기부터 일본 패전기까지 지속적으로, 그리고 일본군이 있었던 거의 전 공간에 배치되었던 조선인 여성은 취업사기·유괴·공권력 등에 의한 협박·인신매매와 같은 다양한 방법으로 동원되었다. 
+        동원자는 소개업자나 군위안소 업자들이 하는 경우가 많지만 하층관리들이 동원에 관여하는 경우도 상당수 있었다. 
+       게다가 조선에서 다른 지역으로 이송되는데 있어서 필수적인 수송수단인 선박·철도, 특히 선박은 일본경찰과 군의 관할·감독하에 있었다. 
+        전쟁기에는 군의 요구가 어떤 기관의 것보다 더 강력한 힘을 가지고 관철되고 있었고, 군이 요구하는 군‘위안부’를 동원하는 데는 일본군, 후방의 권력기관, 그 권력기관의 요구를 실현할 민간인 등이 연쇄적으로 긴밀히 연결되어 군의 요구를 실현시키고 있었다. 
+        이 때문에 일본정부 등이 ‘민간인이 직접 간여하였다’ 또는 ‘관이 직접 관여한 것이 아니다’라고 하는 말은 상당히 형식적 논리일 뿐이다.
+        조직적 군'위안부' 동원은 중일전쟁 초기부터 있었고, 1941년에는 대소공격을 준비한 관동군 특별 연습과 관련하여 짧은 기간에 조선총독부의 지원하에 조선인 여성 2000~3000명을 동원한 것이 확인된다. 
+        이외에도 1941년 12월 일본군이 동남아와 태평양지역을 침략한 이후 군'위안부' 배치를 위해 다수의 조선인 여성들이 동원되었다. 
+        이러한 여성 동원에 필요한 돈은 일본정부에서 상당부분 조달하였다. 일본군과 조선총독부, 중국 괴뢰기관 사이에 군'위안부' 모집에 필요한 돈이 오간 사실이 자료로서 확인된다.</p>
+     
+        <h3>현재 위안부의 현황</h3>
+      <p>2020년 5월 26일 현재 기준으로 정부 등록자 현황 : 총인원 240명, 사망자 223명, 생존자 17명
+        정부에서는 일본군 위안부 피해자들에게 생활안정지원금을 지급하고 있다.  
+      </p>
+   </div>
+
+    <div id="sidebar">
+      <p>평화의 소녀상 사진<p>
+      <p><img src="./girl.png" alt="소녀상" style="width:150px;height:130px;"><br><관련사진3></p>
+      <p>전선의 이동으로 일본군 트럭에 실려 이동중인 위안부들<p>
+      <p><img src="./intruck.jpg" alt="실려 이동중인 위안부" style="width:150px;height:130px;"><br><관련사진4> 출처 : 일본군 위안부 피해자 e-역사관</p>
+    </div>
+  </div>  
+
+
+  <div id="bottom">
+   청운대학교 글로벌경영학과 20181318 서연경 제작
+  </div>
+</div>
+
+</body>
+</html>

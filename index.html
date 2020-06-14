@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 40px;
+    
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top, #sidebar, #bottom, .menuitem {
+    border-radius: 6px;
+    margin: 6px;
+}
+
+#top {
+    background-color: rgb(73, 103, 116);
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+#menubar {
+    width: 200px;
+    float: left;
+}
+
+#main {
+    padding: 6px;
+    margin: 0 210px;
+}
+
+#sidebar {
+    background-color: rgb(198, 211, 216);
+    color: #ffffff;
+    padding: 10px;
+    width: 180px;
+    height:300px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 80%;
+}
+
+#bottom {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#top h1, #top p, #menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background-color: rgb(165, 168, 196);
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.menuitem:hover {
+    background-color: #ffffff;
+}
+
+.menuitem:hover {
+   background-color:rgb(73, 103, 116);
+   color: white;
+   font-weight:bold;
+   text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    #sidebar {
+        width: auto;
+        position: relative;
+    } 
+    #main {
+        margin-right: 0;
+    }    
+       
+}
+
+@media (max-width: 600px) {
+    #menubar {
+        width: auto;
+        float: none;
+    }
+    #main {
+        margin: 0;
+    }    
+}
+</style>
+</head>
+<body>
+
+<div class="container wrapper">
+  <div id="top">
+    <h1>일제강점기(日帝强占期)</h1>
+    <p>1910년 8월 29일 ~ 1945년 8월 15일</p>
+  </div>
+
+  <div class="wrapper">
+   <div id="menubar">
+     <ul id="menulist">
+       <li class="menuitem" onclick="reStyle(1)"><a href="https://westdusrud.github.io/myassignment/">내용</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./girl.html">위안부</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./independence.html">독립운동</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./contents.html">식민지 정책</a></li>
+       <li class="menuitem" onclick="reStyle(1)"><a href="./table.html">연표</a></li>
+     </ul>
+    </div>
+
+    <div id="main">
+      <h2>우리나라가 일본제국주의에 의해 식민통치를 당한 35년간의 시대</h2>
+      <p>일제강점기 35년은 지배 정책에 따라 제1기 : 무단통치시기(1910∼1919), 제2기 : 문화정치시기(1919∼1931), 제3기 : 병참기지화 및 전시동원시기(1931∼1945)의 3시기로 구분된다.
+        <ol><li>제1기 : 무단통치시기(1910∼1919)</li>
+      1910년 8월 22일, 대한제국의 총리 대신이면서 우리나라 대표적 친일파인 이완용과 초대 총독이었던 데라우치 마사타케 사이의 한일 합병 조약이 체결이 되었고, 8월 29일 공포되어 대한제국은 국권을 상실하게 되었다.
+      경복궁 근정전 앞에 일장기가 휘날리며 본격적인 일본의 식민지배가 시작되었다. 일제는 독립운동을 억압하기 위해 무단통치를 시작하였다. 이를 위해 먼저 식민지 통치의 최고 기구인 조선총독부를 설치하였다.
+      이 총독부를 중심으로 1910년부터 1945년까지 우리나라를 강압적으로 지배하였다.
+      일제는 치안을 확보한다는 구실로 전국 곳곳에 경찰관서와 헌병 기관을 설치하고 헌병이 경찰 업무를 지휘하며 총, 칼과 함께 무력을 행사하였다. 
+     <li>제2기 : 문화정치시기(1919∼1931)</li>
+      1910년대의 ‘무단통치’와 대비해 ‘당근과 채찍’을 병행한 1920~30년대의 통치방식을 ‘문화정치’라 부른다. 
+     무력에 기초한 식민지배정책이라는 점에서 문화통치와 무단통치는 본질상 다르지 않다. 
+     그러나 군이 치안을 직접 담당하던 헌병경찰체제에서 문관인 보통경찰이 치안을 전담한 보통경찰체제의 성립, 
+     민족운동을 분열시켜 체제 내로 흡수하기 위한 민족분열정책과 조선인 대우 및 지방제도 개선 등 부분적인 양보 정책(=개량 정책)을 추진했다는 면에서 현상적인 차이를 보이고 있다.
+    <li>제3기 : 병참기지화 및 전시동원시기(1931∼1945)</li>
+     일제가 한반도를 침략 전쟁 수행에 필요한 인적⋅물적 자원을 조달하는 병참 기지로 만들기 위해 실시한 일련의 정책이다. 1929년 세계 대공황의 영향으로 서구 자본주의 국가들은 블록 경제를 강화했다. 이에 따라 일본은 상품 수출에 큰 타격을 받았다.
+    이 과정에서 식민지 조선을 종래의 식량 공급지⋅상품 판매 시장으로서뿐만 아니라 과잉 일본 자본의 투자처이자 전쟁 수행을 위해 군수 물자를 생산하는 병참 기지로서 재조정해 갔다.
+      </p>
+      <p>그리고 1945년 8월 15일 우리나라가 일제의 식민통치로부터 벗어나 자주독립을 되찾게 된다.</p>
+
+      <h3>우리는 역사를 왜 알아야 할까?</h3>
+      <p><왜 우리는 역사에 빠져드는가>, 이수광<q>역사를 알아야 하는 이유는 수 없이 많지만, 우리는 위선자들을 가려내고 그들이 했던 잘못을 지금도 하는 사람들을 심판해야 하기 때문이다. 아직도 거리를 활개 치고 다니는 친일파를 척결하고, 사회의 썩은 부분인 위선자들을 가려내야 비로소 더 나은 미래를 기대할 수 있다. 
+       <br> 같은 실수를 반복하지 않기 위해서는 과거를 알고 현재를 알아야 한다. 역사를 알면 같은 실수를 반복하지 않는 일도 생기겠지만, 역사를 모른다면 수 없이 많은 실수를 반복할 것이다.</q>
+       <br><img src="./remember.jpg" alt="단재 신채호 명언" style="width:150px;height:130px;"><br><관련사진1>
+      </p>
+      <a href="https://youtu.be/HfqgE6lErbY">우리는 역사를 왜 알아야 할까?</a>
+   </div>
+
+    <div id="sidebar">
+      <p>일제강점기 시대의 한반도 모습<p>
+      <p><img src="korea.jpg" alt="일제 시대 한반도" style="width:150px;height:130px;"><br><관련사진2> 출처 : 뉴스줌</p>
+    </div>
+  </div>  
+
+
+  <div id="bottom">
+   청운대학교 글로벌경영학과 20181318 서연경 제작
+  </div>
+</div>
+
+</body>
+</html>
